@@ -1,0 +1,15 @@
+#logging:
+#  level:
+#    root: info
+#
+#  file:
+#    name: goit10.log
+#    path: /
+#spring:
+#  datasource:
+#    password: postgres
+#    url: jdbc:postgresql://localhost:5433/postgres
+#    username: postgres
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    show-sql: true

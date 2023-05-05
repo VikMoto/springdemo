@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Current-time</title>
+</head>
+<body>
+    <h1 th:if="${cookieValue != null}" th:text="${cookieValue}"></h1>
+
+    <h1 th:if="${cookieValue == null}">Cookie is not present</h1>
+
+
+
+</body>
+</html>
