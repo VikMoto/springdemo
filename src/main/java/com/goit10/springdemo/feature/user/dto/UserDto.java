@@ -28,8 +28,18 @@ public class UserDto {
         return UserDto.builder()
                 .email(user.getEmail())
                 .fullName(user.getFullName())
+                .birthday(user.getBirthday())
                 .age(age)
                 .gender(user.getGender())
+                .build();
+    }
+
+    public static User fromDto(UserDto userDto) {
+        return User.builder()
+                .email(userDto.getEmail())
+                .fullName(userDto.getFullName())
+                .birthday(userDto.getBirthday())
+                .gender(userDto.getGender())
                 .build();
     }
 }
